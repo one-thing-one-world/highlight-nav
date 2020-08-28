@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    let arr = [
+      {
+        name: 'jack',
+        id: 1
+      },
+      {
+        name: 'tom',
+        id: 2
+      }
+    ]
+    let item = arr.find((item, index) => {
+      return item.name === 'jack'
+    })
+    console.log(item)
+  </script>
+</body>
+</html>
